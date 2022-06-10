@@ -1,3 +1,6 @@
+# These are old instructions, but keeping it for historical purposes.
+## New instructions [here](https://github.com/modem7/PyPI/blob/gh-pages/README.md)
+
 # Instructions for building Borgmatic wheels
 
 ### Potential prerequesites: 
