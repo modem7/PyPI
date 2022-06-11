@@ -16,7 +16,7 @@ dumb-pypi --package-list <(ls packages) \
     --output-dir .
 ```
 
-# Full instructions on updating Borgmatic wheels:
+# Full instructions on updating python packages:
 
 ### Requirements:
 - [QEMU Emulation](https://www.stereolabs.com/docs/docker/building-arm-container-on-x86/#setting-up-arm-emulation-on-x86)
@@ -30,9 +30,9 @@ dumb-pypi --package-list <(ls packages) \
 `git clone https://github.com/modem7/PyPI.git && cd PyPI`
 
 ### Run the script. 
-This will build the wheels for x86_64 and arm64, and create a suitable gh-pages set of files.
+This will build the wheels for multiple architectures, and create a suitable gh-pages set of files.
 
-`./build_borg_wheels.sh`
+`./build_xxx_wheels.sh`
 
 ### Using the index:
 In the requirements.txt of the end install, you'll need to add: `--extra-index-url https://modem7.github.io/PyPI/simple`
