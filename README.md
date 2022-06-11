@@ -19,9 +19,6 @@ dumb-pypi --package-list <(ls packages) \
 # Full instructions on updating Borgmatic wheels:
 
 ### Requirements:
-- [dumb-pypi](https://pypi.org/project/dumb-pypi/)
-  - `pip install dumb-pypi`
-
 - [QEMU Emulation](https://www.stereolabs.com/docs/docker/building-arm-container-on-x86/#setting-up-arm-emulation-on-x86)
   - Install the qemu packages:
     - `sudo apt-get install qemu binfmt-support qemu-user-static`

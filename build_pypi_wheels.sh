@@ -24,6 +24,6 @@ docker run --rm -v "$(pwd)":/data -w /data -it $ALPINE_ARMV7 sh -c './dumb-pypi/
 
 docker run --rm -v "$(pwd)":/data -w /data -it $ALPINE_X86 sh -c './dumb-pypi/dumb_pypi_wheels.sh'
 
-dumb-pypi --package-list <(ls packages) \
+docker run --rm -v "$(pwd)":/data -w /data -e PKG_URL=$PKG_URL -it modem7/dumb-pypi sh -c 'dumb-pypi --package-list <(ls packages) \
    --packages-url $PKG_URL \
-   --output-dir .
+   --output-dir .'

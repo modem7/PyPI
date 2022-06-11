@@ -1,9 +1,6 @@
 #!/bin/bash
 
 # Requirements: 
-## dumb-pypi:
-### pip install dumb-pypi
-#
 ## QEMU Emulation
 ### Install the qemu packages:
 ### sudo apt-get install qemu binfmt-support qemu-user-static
@@ -18,6 +15,6 @@ docker run --rm -v "$(pwd)":/data -w /data -it $ALPINE_ARM64 sh -c './borgmatic/
 
 docker run --rm -v "$(pwd)":/data -w /data -it $ALPINE_X86 sh -c './borgmatic/borgmatic_wheels.sh'
 
-dumb-pypi --package-list <(ls packages) \
+docker run --rm -v "$(pwd)":/data -w /data -e PKG_URL=$PKG_URL -it modem7/dumb-pypi sh -c 'dumb-pypi --package-list <(ls packages) \
    --packages-url $PKG_URL \
-   --output-dir .
+   --output-dir .'
