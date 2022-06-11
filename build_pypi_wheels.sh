@@ -1,25 +1,26 @@
 #!/bin/bash
 
-# Requirements: 
+# Requirements:
 # QEMU Emulation
 ## Install the qemu packages:
 ### sudo apt-get install qemu binfmt-support qemu-user-static
 ## Execute the registering scripts:
 ### docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
 
+IMG=python:3.10-alpine3.16
+SCRIPT=./dumb-pypi/dumb_pypi_wheels.sh
 PKG_URL=https://raw.githubusercontent.com/modem7/PyPI/gh-pages/packages
-ALPINE_X86=alpine:3.16
-ALPINE_ARM64=arm64v8/python:3.10.5-alpine3.16
-ALPINE_ARMV6=arm32v6/python:3.10.5-alpine3.16
-ALPINE_ARMV7=arm32v7/python:3.10.5-alpine3.16
+# https://github.com/docker-library/official-images#architectures-other-than-amd64
+ALPINE_X86=${IMG}
+# ALPINE_ARMV6=arm32v6/${IMG} - builds for armv6 and armv7 both come under armv7l
+ALPINE_ARMV7=arm32v7/${IMG}
+ALPINE_ARM64=arm64v8/${IMG}
 
-docker run --rm -v "$(pwd)":/data -w /data -it $ALPINE_ARM64 sh -c './dumb-pypi/dumb_pypi_wheels.sh'
-
-docker run --rm -v "$(pwd)":/data -w /data -it $ALPINE_ARMV6 sh -c './dumb-pypi/dumb_pypi_wheels.sh'
-
-docker run --rm -v "$(pwd)":/data -w /data -it $ALPINE_ARMV7 sh -c './dumb-pypi/dumb_pypi_wheels.sh'
-
-docker run --rm -v "$(pwd)":/data -w /data -it $ALPINE_X86 sh -c './dumb-pypi/dumb_pypi_wheels.sh'
+docker run --rm -v "$(pwd)":/data -w /data $ALPINE_ARM64 sh -c $SCRIPT &
+# docker run --rm -v "$(pwd)":/data -w /data $ALPINE_ARMV6 sh -c $SCRIPT &
+docker run --rm -v "$(pwd)":/data -w /data $ALPINE_ARMV7 sh -c $SCRIPT &
+docker run --rm -v "$(pwd)":/data -w /data $ALPINE_X86 sh -c $SCRIPT &
+wait
 
 docker run --rm -v "$(pwd)":/data -w /data -e PKG_URL=$PKG_URL -it modem7/dumb-pypi sh -c 'dumb-pypi --package-list <(ls packages) \
    --packages-url $PKG_URL \
