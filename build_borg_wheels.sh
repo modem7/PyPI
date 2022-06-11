@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Requirements: 
-## QEMU Emulation
-### Install the qemu packages:
+# QEMU Emulation
+## Install the qemu packages:
 ### sudo apt-get install qemu binfmt-support qemu-user-static
 ## Execute the registering scripts:
 ### docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
