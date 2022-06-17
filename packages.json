@@ -10,10 +10,12 @@
 {"filename": "boto3-1.24.11-py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1655439387} 
 {"filename": "botocore-1.27.11-py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1655439387} 
 {"filename": "certifi-2022.5.18.1-py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1654900584} 
+{"filename": "certifi-2022.6.15-py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1655486641} 
 {"filename": "cffi-1.15.0-cp310-cp310-linux_aarch64.whl", "uploaded_by": "modem7", "upload_timestamp": 1655439387} 
 {"filename": "cffi-1.15.0-cp310-cp310-linux_armv7l.whl", "uploaded_by": "modem7", "upload_timestamp": 1655439387} 
 {"filename": "cffi-1.15.0-cp310-cp310-linux_x86_64.whl", "uploaded_by": "modem7", "upload_timestamp": 1655439387} 
 {"filename": "charset_normalizer-2.0.12-py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1654900584} 
+{"filename": "click-8.1.3-py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1655486641} 
 {"filename": "colorama-0.4.4-py2.py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1654900584} 
 {"filename": "cryptography-37.0.2-cp36-abi3-musllinux_1_1_aarch64.whl", "uploaded_by": "modem7", "upload_timestamp": 1655439387} 
 {"filename": "cryptography-37.0.2-cp36-abi3-musllinux_1_1_x86_64.whl", "uploaded_by": "modem7", "upload_timestamp": 1655439387} 
@@ -57,4 +59,5 @@
 {"filename": "setuptools-62.3.3-py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1654900584} 
 {"filename": "setuptools-62.3.4-py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1655072517} 
 {"filename": "six-1.16.0-py2.py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1655439387} 
+{"filename": "typing_extensions-4.2.0-py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1655486641} 
 {"filename": "urllib3-1.26.9-py2.py3-none-any.whl", "uploaded_by": "modem7", "upload_timestamp": 1654900584} 
