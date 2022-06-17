@@ -5,9 +5,20 @@ apk update && apk add --update --no-cache \
     linux-headers \
     py3-pkgconfig \
     py3-wheel \
+    py3-pip \
+    curl \
+    autoconf \
+    py3-cryptography \
+    openssh \
+    libffi-dev \
+    musl-dev \
+    python3-dev \
+    openssl-dev \
+    cargo \
+    build-base \
     tree
 
-python3 -m pip install --no-cache-dir --upgrade --upgrade-strategy='eager' \
+python3 -m pip install --no-cache-dir --upgrade \
         'setuptools' \
         'pip' \
         'wheel'

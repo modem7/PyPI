@@ -3,6 +3,7 @@
 apk update && apk add --update --no-cache \
     alpine-sdk \
     linux-headers \
+    py3-pip \
     py3-pkgconfig \
     py3-wheel \
     tree

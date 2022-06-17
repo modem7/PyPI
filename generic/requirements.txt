@@ -1,3 +1,9 @@
 --extra-index-url https://modem7.github.io/PyPI/simple
 
 # Enter packages here
+PyYAML==6.0
+Jinja2==3.1.2
+httplib2==0.20.4
+# ansible==5.9.0 # dropping ansible as it requires git LFS due to being over 50MB.
+boto==2.49.0
+boto3==1.24.11
