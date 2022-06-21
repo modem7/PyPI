@@ -1,20 +1,16 @@
-# PyPI repository
+# PyPI repository.
 
 Static PyPI repository for personal Python packages. Built with [dumb-pypi](https://github.com/chriskuehl/dumb-pypi) and hosted with GitHub Pages.
 
-## Web interface
+## Web interface.
 
 See https://modem7.github.io/PyPI/
 
-## Updating the static pages with new packages
+## Updating the static pages with new packages.
 
-### Run on the repository root:
+### Using the update script:
 
-```
-dumb-pypi --package-list <(ls packages) \
-    --packages-url https://raw.githubusercontent.com/modem7/PyPI/gh-pages/packages \
-    --output-dir .
-```
+`./indexbuild.sh`
 
 # Full instructions on updating python packages:
 
