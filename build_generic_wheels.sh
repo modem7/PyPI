@@ -24,6 +24,7 @@ docker run --rm -v "$(pwd)":/data -w /data $ALPINE_X86 sh -c $SCRIPT &
 wait
 
 # Create package.json
+echo Creating package.json
 git ls-files | xargs -I{} git log -1 --date=format:%Y%m%d%H%M.%S --format='touch -t %ad "{}"' "{}" | $SHELL
 echo -n > packages.json
 for FILE in $(ls packages | sed -e 's/"/\\"/g')
@@ -33,6 +34,7 @@ echo -en {\"filename\": \"${FILE}\", \"uploaded_by\": \"${UPLOADER}\", \"upload_
 done
 
 # Create index
+echo Creating Index
 docker run --rm --user=$PUID:$PGID -v "$(pwd)":/data -w /data -e PKG_URL=$PKG_URL -it modem7/dumb-pypi sh -c 'dumb-pypi \
    --package-list-json packages.json \
    --packages-url $PKG_URL \
