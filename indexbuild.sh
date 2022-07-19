@@ -5,7 +5,7 @@
 PUID=$(id -u)
 PGID=$(id -g)
 UPLOADER=modem7
-PKG_URL=https://raw.githubusercontent.com/modem7/PyPI/gh-pages/packages
+PKG_URL=https://raw.githubusercontent.com/modem7/PyPI/master/packages
 
 # Create package.json
 git ls-files | xargs -I{} git log -1 --date=format:%Y%m%d%H%M.%S --format='touch -t %ad "{}"' "{}" | $SHELL
