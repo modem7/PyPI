@@ -1,4 +1,4 @@
 --extra-index-url https://modem7.github.io/PyPI/simple
 --extra-index-url https://wheel-index.linuxserver.io/alpine-3.16/
 
-dumb-pypi==1.11.0
+dumb-pypi==1.12.0
