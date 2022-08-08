@@ -4,4 +4,4 @@
 llfuse==1.4.2
 borgbackup==1.2.1
 borgmatic==1.6.6
-apprise==0.9.9
+apprise==1.0.0
