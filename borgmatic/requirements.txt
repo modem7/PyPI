@@ -2,6 +2,6 @@
 --extra-index-url https://wheel-index.linuxserver.io/alpine-3.16/
 
 llfuse==1.4.2
-borgbackup==1.2.1
+borgbackup==1.2.2
 borgmatic==1.6.6
 apprise==1.0.0
