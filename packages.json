@@ -1,4 +1,5 @@
 {"filename": "apprise-0.9.9-py2.py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
+{"filename": "apprise-1.0.0-py2.py3-none-any.whl", "upload_timestamp": 1661023840, "uploaded_by": "modem7"}
 {"filename": "attrs-21.4.0-py2.py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "attrs-22.1.0-py2.py3-none-any.whl", "upload_timestamp": 1659725253, "uploaded_by": "modem7"}
 {"filename": "bluepy-1.3.0-cp39-cp39-linux_aarch64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
@@ -24,6 +25,7 @@
 {"filename": "botocore-1.27.26-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "botocore-1.27.39-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "botocore-1.27.46-py3-none-any.whl", "upload_timestamp": 1659725253, "uploaded_by": "modem7"}
+{"filename": "botocore-1.27.56-py3-none-any.whl", "upload_timestamp": 1661023840, "uploaded_by": "modem7"}
 {"filename": "Brotli-1.0.9-cp39-cp39-linux_armv8l.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "Brotli-1.0.9-cp39-cp39-musllinux_1_1_aarch64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "Brotli-1.0.9-cp39-cp39-musllinux_1_1_x86_64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
@@ -41,6 +43,7 @@
 {"filename": "cffi-1.15.1-cp310-cp310-musllinux_1_1_x86_64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "charset_normalizer-2.0.12-py3-none-any.whl", "upload_timestamp": 1654900584, "uploaded_by": "modem7"}
 {"filename": "charset_normalizer-2.1.0-py3-none-any.whl", "upload_timestamp": 1656564795, "uploaded_by": "modem7"}
+{"filename": "charset_normalizer-2.1.1-py3-none-any.whl", "upload_timestamp": 1661023840, "uploaded_by": "modem7"}
 {"filename": "click-8.1.3-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "colorama-0.4.4-py2.py3-none-any.whl", "upload_timestamp": 1654900584, "uploaded_by": "modem7"}
 {"filename": "colorama-0.4.5-py2.py3-none-any.whl", "upload_timestamp": 1656092708, "uploaded_by": "modem7"}
@@ -125,6 +128,8 @@
 {"filename": "numpy-1.23.0-cp310-cp310-linux_x86_64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "numpy-1.23.1-cp310-cp310-linux_aarch64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "numpy-1.23.1-cp310-cp310-linux_x86_64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
+{"filename": "numpy-1.23.2-cp310-cp310-linux_aarch64.whl", "upload_timestamp": 1661028787, "uploaded_by": "modem7"}
+{"filename": "numpy-1.23.2-cp310-cp310-linux_x86_64.whl", "upload_timestamp": 1661024278, "uploaded_by": "modem7"}
 {"filename": "oauthlib-3.2.0-py3-none-any.whl", "upload_timestamp": 1656564795, "uploaded_by": "modem7"}
 {"filename": "packaging-21.3-py3-none-any.whl", "upload_timestamp": 1654900584, "uploaded_by": "modem7"}
 {"filename": "pycparser-2.21-py2.py3-none-any.whl", "upload_timestamp": 1655439387, "uploaded_by": "modem7"}
@@ -166,7 +171,8 @@
 {"filename": "setuptools-63.1.0-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "setuptools-63.2.0-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "setuptools-63.4.1-py3-none-any.whl", "upload_timestamp": 1659725253, "uploaded_by": "modem7"}
-{"filename": "setuptools-63.4.2-py3-none-any.whl", "upload_timestamp": 1659946455, "uploaded_by": "modem7"}
+{"filename": "setuptools-63.4.2-py3-none-any.whl", "upload_timestamp": 1659946690, "uploaded_by": "modem7"}
+{"filename": "setuptools-65.1.0-py3-none-any.whl", "upload_timestamp": 1661023840, "uploaded_by": "modem7"}
 {"filename": "six-1.16.0-py2.py3-none-any.whl", "upload_timestamp": 1655439387, "uploaded_by": "modem7"}
 {"filename": "typing_extensions-4.2.0-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "typing_extensions-4.3.0-py3-none-any.whl", "upload_timestamp": 1656946659, "uploaded_by": "modem7"}
