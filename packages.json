@@ -13,13 +13,15 @@
 {"filename": "borgbackup-1.2.1-cp310-cp310-linux_aarch64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "borgbackup-1.2.1-cp310-cp310-linux_armv7l.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "borgbackup-1.2.1-cp310-cp310-linux_x86_64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
-{"filename": "borgbackup-1.2.2-cp310-cp310-linux_armv7l.whl", "upload_timestamp": 1661031333, "uploaded_by": "modem7"}
-{"filename": "borgbackup-1.2.2-cp310-cp310-linux_x86_64.whl", "upload_timestamp": 1661029092, "uploaded_by": "modem7"}
+{"filename": "borgbackup-1.2.2-cp310-cp310-linux_aarch64.whl", "upload_timestamp": 1661175859, "uploaded_by": "modem7"}
+{"filename": "borgbackup-1.2.2-cp310-cp310-linux_armv7l.whl", "upload_timestamp": 1661031492, "uploaded_by": "modem7"}
+{"filename": "borgbackup-1.2.2-cp310-cp310-linux_x86_64.whl", "upload_timestamp": 1661031492, "uploaded_by": "modem7"}
 {"filename": "borgmatic-1.6.2-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "borgmatic-1.6.3-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "borgmatic-1.6.4-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "borgmatic-1.6.5-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "borgmatic-1.6.6-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
+{"filename": "borgmatic-1.7.0-py3-none-any.whl", "upload_timestamp": 1661173051, "uploaded_by": "modem7"}
 {"filename": "botocore-1.27.20-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "botocore-1.27.21-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "botocore-1.27.22-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
@@ -84,7 +86,8 @@
 {"filename": "jsonschema-4.6.1-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "jsonschema-4.7.2-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "jsonschema-4.9.1-py3-none-any.whl", "upload_timestamp": 1659725253, "uploaded_by": "modem7"}
-{"filename": "jsonschema-4.13.0-py3-none-any.whl", "upload_timestamp": 1661028938, "uploaded_by": "modem7"}
+{"filename": "jsonschema-4.13.0-py3-none-any.whl", "upload_timestamp": 1661031492, "uploaded_by": "modem7"}
+{"filename": "jsonschema-4.14.0-py3-none-any.whl", "upload_timestamp": 1661173051, "uploaded_by": "modem7"}
 {"filename": "llfuse-1.4.2-cp310-cp310-linux_aarch64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "llfuse-1.4.2-cp310-cp310-linux_armv7l.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "llfuse-1.4.2-cp310-cp310-linux_x86_64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
@@ -176,6 +179,7 @@
 {"filename": "setuptools-63.4.1-py3-none-any.whl", "upload_timestamp": 1659725253, "uploaded_by": "modem7"}
 {"filename": "setuptools-63.4.2-py3-none-any.whl", "upload_timestamp": 1659946690, "uploaded_by": "modem7"}
 {"filename": "setuptools-65.1.0-py3-none-any.whl", "upload_timestamp": 1661028838, "uploaded_by": "modem7"}
+{"filename": "setuptools-65.2.0-py3-none-any.whl", "upload_timestamp": 1661173051, "uploaded_by": "modem7"}
 {"filename": "six-1.16.0-py2.py3-none-any.whl", "upload_timestamp": 1655439387, "uploaded_by": "modem7"}
 {"filename": "typing_extensions-4.2.0-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "typing_extensions-4.3.0-py3-none-any.whl", "upload_timestamp": 1656946659, "uploaded_by": "modem7"}
