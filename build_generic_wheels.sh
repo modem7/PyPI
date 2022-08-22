@@ -18,8 +18,8 @@ PLATFORMARM32="linux/arm/v7"
 PLATFORMARM64="linux/arm64/v8"
 PLATFORMAMD64="linux/amd64"
 
-docker run --rm --user=$PUID:$PGID --platform $PLATFORMARM64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
-docker run --rm --user=$PUID:$PGID --platform $PLATFORMAMD64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
+docker run --rm --name "x86" --platform $PLATFORMARM64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
+docker run --rm --name "arm64" --platform $PLATFORMAMD64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
 wait
 
 # Create package.json
