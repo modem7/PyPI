@@ -14,13 +14,13 @@ IMG=alpine:3.16
 SCRIPT=./borgmatic/borgmatic_wheels.sh
 PKG_URL=https://raw.githubusercontent.com/modem7/PyPI/master/packages
 # https://github.com/docker-library/official-images#architectures-other-than-amd64
-ALPINE_X86=${IMG}
-ALPINE_ARMV7=arm32v7/${IMG}
-ALPINE_ARM64=arm64v8/${IMG}
+PLATFORMARM32="linux/arm/v7"
+PLATFORMARM64="linux/arm64/v8"
+PLATFORMAMD64="linux/amd64"
 
-docker run --rm -v "$(pwd)":/data -w /data $ALPINE_ARM64 sh -c $SCRIPT &
-docker run --rm -v "$(pwd)":/data -w /data $ALPINE_ARMV7 sh -c $SCRIPT &
-docker run --rm -v "$(pwd)":/data -w /data $ALPINE_X86 sh -c $SCRIPT &
+docker run --rm --user=$PUID:$PGID --platform $PLATFORMARM32 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
+docker run --rm --user=$PUID:$PGID --platform $PLATFORMARM64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
+docker run --rm --user=$PUID:$PGID --platform $PLATFORMAMD64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
 wait
 
 # Create package.json
