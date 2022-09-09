@@ -35,6 +35,7 @@
 {"filename": "botocore-1.27.57-py3-none-any.whl", "upload_timestamp": 1661199061, "uploaded_by": "modem7"}
 {"filename": "botocore-1.27.60-py3-none-any.whl", "upload_timestamp": 1661471610, "uploaded_by": "modem7"}
 {"filename": "botocore-1.27.67-py3-none-any.whl", "upload_timestamp": 1662548668, "uploaded_by": "modem7"}
+{"filename": "botocore-1.27.69-py3-none-any.whl", "upload_timestamp": 1662744348, "uploaded_by": "modem7"}
 {"filename": "Brotli-1.0.9-cp39-cp39-linux_armv8l.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "Brotli-1.0.9-cp39-cp39-musllinux_1_1_aarch64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "Brotli-1.0.9-cp39-cp39-musllinux_1_1_x86_64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
@@ -42,6 +43,7 @@
 {"filename": "Brotli-1.0.9-cp310-cp310-musllinux_1_1_x86_64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "certifi-2022.5.18.1-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "certifi-2022.6.15-py3-none-any.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
+{"filename": "certifi-2022.6.15.1-py3-none-any.whl", "upload_timestamp": 1662744348, "uploaded_by": "modem7"}
 {"filename": "cffi-1.15.0-cp39-cp39-linux_aarch64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "cffi-1.15.0-cp39-cp39-linux_armv8l.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
 {"filename": "cffi-1.15.0-cp39-cp39-linux_x86_64.whl", "upload_timestamp": 1659723534, "uploaded_by": "modem7"}
