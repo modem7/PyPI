@@ -5,4 +5,4 @@
 # ansible==5.9.0 # dropping ansible as it requires git LFS due to being over 50MB.
 cffi==1.15.1
 cryptography==38.0.1
-numpy==1.23.2
+numpy==1.23.3
