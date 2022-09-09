@@ -1,7 +1,7 @@
 # PyPI repository.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/modem7/PyPI)
-[![pages-build-deployment](https://github.com/modem7/PyPI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/modem7/PyPI/actions/workflows/pages/pages-build-deployment)
+[![Deploy static content to Pages](https://github.com/modem7/PyPI/actions/workflows/pages.yml/badge.svg)](https://github.com/modem7/PyPI/actions/workflows/pages.yml)
 
 Static PyPI repository for personal Python packages. Built with [dumb-pypi](https://github.com/chriskuehl/dumb-pypi) and hosted with GitHub Pages.
 
