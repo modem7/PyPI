@@ -1,9 +1,8 @@
 --extra-index-url https://modem7.github.io/PyPI/simple
 --extra-index-url https://wheel-index.linuxserver.io/alpine-3.16/
+--extra-index-url https://wheel-index.linuxserver.io/homeassistant-3.16/
 
 # Enter packages here
-# ansible==5.9.0 # dropping ansible as it requires git LFS due to being over 50MB.
 cffi==1.15.1
 cryptography==38.0.1
 numpy==1.23.3
-ruamel.yaml.clib==0.26
