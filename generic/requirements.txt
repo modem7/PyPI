@@ -6,3 +6,4 @@
 cffi==1.15.1
 cryptography==38.0.1
 numpy==1.23.3
+ruamel.yaml.clib==0.26

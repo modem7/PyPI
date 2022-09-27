@@ -3,3 +3,5 @@
 
 llfuse==1.4.2
 borgbackup==1.2.2
+ruamel-yaml-clib==0.2.6
+ruamel-yaml==0.17.21
