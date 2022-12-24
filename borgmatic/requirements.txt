@@ -3,6 +3,6 @@
 --extra-index-url https://wheel-index.linuxserver.io/homeassistant-3.16/
 
 apprise==1.2.0
-borgbackup==1.2.2
+borgbackup==1.2.3
 llfuse==1.4.2
 borgmatic==1.7.5
