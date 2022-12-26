@@ -10,7 +10,7 @@
 PUID=$(id -u)
 PGID=$(id -g)
 UPLOADER=modem7
-IMG=python:3.11.0-alpine3.16
+IMG=python:3.11.1-alpine3.17
 SCRIPT=./generic/generic_wheels.sh
 PKG_URL=https://raw.githubusercontent.com/modem7/PyPI/master/packages
 # https://github.com/docker-library/official-images#architectures-other-than-amd64

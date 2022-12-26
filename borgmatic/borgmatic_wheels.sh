@@ -23,7 +23,7 @@ apk update && apk add --update --no-cache \
     libffi-dev \
     tree
 
-python3 -m pip install -U pip setuptools wheel && python3 -m pip wheel --no-cache-dir --wheel-dir ./packages/ -r borgmatic/requirements.txt -f ./packages/
+python3 -m pip install -U pkgconfig pip setuptools wheel && python3 -m pip wheel --no-cache-dir --wheel-dir ./packages/ -r borgmatic/requirements.txt -f ./packages/
 
 arch=$(uname -m)
 echo
