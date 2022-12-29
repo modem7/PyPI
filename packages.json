@@ -1,6 +1,7 @@
 {"filename": "apprise-1.0.0-py2.py3-none-any.whl", "upload_timestamp": 1664309351, "uploaded_by": "modem7"}
 {"filename": "apprise-1.1.0-py2.py3-none-any.whl", "upload_timestamp": 1665263436, "uploaded_by": "modem7"}
 {"filename": "apprise-1.2.0-py2.py3-none-any.whl", "upload_timestamp": 1668548159, "uploaded_by": "modem7"}
+{"filename": "apprise-1.2.1-py2.py3-none-any.whl", "upload_timestamp": 1672275929, "uploaded_by": "modem7"}
 {"filename": "attrs-22.1.0-py2.py3-none-any.whl", "upload_timestamp": 1664309351, "uploaded_by": "modem7"}
 {"filename": "attrs-22.2.0-py3-none-any.whl", "upload_timestamp": 1671924076, "uploaded_by": "modem7"}
 {"filename": "borgbackup-1.2.0-cp310-cp310-linux_aarch64.whl", "upload_timestamp": 1664307204, "uploaded_by": "modem7"}
@@ -14,9 +15,9 @@
 {"filename": "borgbackup-1.2.2-cp311-cp311-linux_aarch64.whl", "upload_timestamp": 1666697496, "uploaded_by": "modem7"}
 {"filename": "borgbackup-1.2.2-cp311-cp311-linux_armv7l.whl", "upload_timestamp": 1666697496, "uploaded_by": "modem7"}
 {"filename": "borgbackup-1.2.2-cp311-cp311-linux_x86_64.whl", "upload_timestamp": 1666697496, "uploaded_by": "modem7"}
-{"filename": "borgbackup-1.2.3-cp311-cp311-linux_aarch64.whl", "upload_timestamp": 1671924076, "uploaded_by": "modem7"}
-{"filename": "borgbackup-1.2.3-cp311-cp311-linux_armv7l.whl", "upload_timestamp": 1671924076, "uploaded_by": "modem7"}
-{"filename": "borgbackup-1.2.3-cp311-cp311-linux_x86_64.whl", "upload_timestamp": 1671924076, "uploaded_by": "modem7"}
+{"filename": "borgbackup-1.2.3-cp311-cp311-linux_aarch64.whl", "upload_timestamp": 1672029629, "uploaded_by": "modem7"}
+{"filename": "borgbackup-1.2.3-cp311-cp311-linux_armv7l.whl", "upload_timestamp": 1672029629, "uploaded_by": "modem7"}
+{"filename": "borgbackup-1.2.3-cp311-cp311-linux_x86_64.whl", "upload_timestamp": 1672029629, "uploaded_by": "modem7"}
 {"filename": "borgmatic-1.7.2-py3-none-any.whl", "upload_timestamp": 1664309351, "uploaded_by": "modem7"}
 {"filename": "borgmatic-1.7.3-py3-none-any.whl", "upload_timestamp": 1665601449, "uploaded_by": "modem7"}
 {"filename": "borgmatic-1.7.4-py3-none-any.whl", "upload_timestamp": 1665791794, "uploaded_by": "modem7"}
