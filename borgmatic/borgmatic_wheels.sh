@@ -12,6 +12,8 @@ apk update && apk add --update --no-cache \
     openssl-dev \
     lz4-dev \
     acl-dev \
+    libssl1.1 \
+    libcrypto1.1 \
     fuse-dev \
     attr-dev \
     zlib-dev \
