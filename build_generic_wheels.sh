@@ -15,7 +15,7 @@ SCRIPT=./generic/generic_wheels.sh
 PKG_URL=https://raw.githubusercontent.com/modem7/PyPI/master/packages
 # https://github.com/docker-library/official-images#architectures-other-than-amd64
 PLATFORMARM32="linux/arm/v7"
-PLATFORMARM64="linux/arm64/v8"
+PLATFORMARM64="linux/arm64"
 PLATFORMAMD64="linux/amd64"
 
 sudo chown -R $PUID:$PGID .
