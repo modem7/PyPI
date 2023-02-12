@@ -1,6 +1,7 @@
 --extra-index-url https://modem7.github.io/PyPI/simple
---extra-index-url https://wheel-index.linuxserver.io/alpine-3.16/
---extra-index-url https://wheel-index.linuxserver.io/homeassistant-3.16/
+--extra-index-url https://wheel-index.linuxserver.io/alpine-3.16
+--extra-index-url https://wheel-index.linuxserver.io/alpine-3.17
+--extra-index-url https://wheel-index.linuxserver.io/homeassistant-3.16
 
 apprise==1.2.1
 borgbackup==1.2.3
