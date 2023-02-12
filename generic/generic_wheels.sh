@@ -2,20 +2,21 @@
 
 apk update && apk add --update --no-cache \
     alpine-sdk \
+    autoconf \
+    build-base \
+    cargo \
+    curl \
+    g++ \
+    libffi-dev \
     linux-headers \
+    musl-dev \
+    openssh \
+    openssl-dev \
+    py3-cryptography \
+    py3-pip \
     py3-pkgconfig \
     py3-wheel \
-    py3-pip \
-    curl \
-    autoconf \
-    py3-cryptography \
-    openssh \
-    libffi-dev \
-    musl-dev \
     python3-dev \
-    openssl-dev \
-    cargo \
-    build-base \
     tree
 
 python3 -m pip install --no-cache-dir --upgrade \
