@@ -22,7 +22,8 @@ apk update && apk add --update --no-cache \
 python3 -m pip install --no-cache-dir --upgrade \
         'setuptools' \
         'pip' \
-        'wheel'
+        'wheel' \
+        'packaging'
 
 python3 -m pip wheel --no-cache-dir --wheel-dir ./packages/ -r generic/requirements.txt -f ./packages/
 

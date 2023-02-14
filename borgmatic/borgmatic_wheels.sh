@@ -27,7 +27,7 @@ apk update && apk add --update --no-cache \
     xz-dev \
     zlib-dev
 
-python3 -m pip install -U pkgconfig pip setuptools wheel && python3 -m pip wheel --no-cache-dir --wheel-dir ./packages/ -r borgmatic/requirements.txt -f ./packages/
+python3 -m pip install -U pkgconfig packaging pip setuptools wheel && python3 -m pip wheel --no-cache-dir --wheel-dir ./packages/ -r borgmatic/requirements.txt -f ./packages/
 
 arch=$(uname -m)
 echo
