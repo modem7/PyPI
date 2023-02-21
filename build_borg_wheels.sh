@@ -20,7 +20,7 @@ PLATFORMAMD64="linux/amd64"
 
 docker run --rm --name "arm32" --platform $PLATFORMARM32 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
 docker run --rm --name "arm64" --platform $PLATFORMARM64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
-docker run --rm --name "amc64" --platform $PLATFORMAMD64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
+docker run --rm --name "amd64" --platform $PLATFORMAMD64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
 wait
 
 sudo chown -R $PUID:$PGID .
