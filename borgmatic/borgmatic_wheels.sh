@@ -4,6 +4,7 @@ apk update && apk add --update --no-cache \
     acl-dev \
     alpine-sdk \
     attr-dev \
+    attr-dev \
     bzip2-dev \
     fuse-dev \
     g++ \
@@ -14,10 +15,13 @@ apk update && apk add --update --no-cache \
     lz4-dev \
     musl-dev \
     ncurses-dev \
-    openssl-dev \
+    openssl-dev>3 \
+    py3-msgpack \
+    py3-packaging \
     py3-pip \
     py3-pkgconfig \
     py3-setuptools \
+    py3-setuptools_scm \
     py3-wheel \
     py3-xxhash \
     python3-dev \
@@ -25,9 +29,10 @@ apk update && apk add --update --no-cache \
     sqlite-dev \
     tree \
     xz-dev \
-    zlib-dev
+    zlib-dev \
+    zstd-dev
 
-python3 -m pip install -U pkgconfig packaging pip setuptools wheel && python3 -m pip wheel --no-cache-dir --wheel-dir ./packages/ -r borgmatic/requirements.txt -f ./packages/
+python3 -m pip install -U pkgconfig pip setuptools wheel && python3 -m pip wheel --no-cache-dir --wheel-dir ./packages/ -r borgmatic/requirements.txt -f ./packages/
 
 arch=$(uname -m)
 echo
