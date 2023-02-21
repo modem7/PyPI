@@ -18,12 +18,12 @@ PLATFORMARM32="linux/arm/v7"
 PLATFORMARM64="linux/arm64"
 PLATFORMAMD64="linux/amd64"
 
-sudo chown -R $PUID:$PGID .
-
 docker run --rm --name "x86" --platform $PLATFORMARM32 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
 docker run --rm --name "arm32" --platform $PLATFORMARM64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
 docker run --rm --name "arm64" --platform $PLATFORMAMD64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
 wait
+
+sudo chown -R $PUID:$PGID .
 
 # Create package.json
 echo Creating package.json
