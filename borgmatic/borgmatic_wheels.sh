@@ -28,6 +28,7 @@ apk update && apk add --update --no-cache \
     readline-dev \
     sqlite-dev \
     tree \
+    xxhash-dev \
     xz-dev \
     zlib-dev \
     zstd-dev
