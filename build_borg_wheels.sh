@@ -18,15 +18,15 @@ PLATFORMARM32="linux/arm/v7"
 PLATFORMARM64="linux/arm64"
 PLATFORMAMD64="linux/amd64"
 
-docker run --rm --name "arm32" --platform $PLATFORMARM32 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
-docker run --rm --name "arm64" --platform $PLATFORMARM64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
-docker run --rm --name "amd64" --platform $PLATFORMAMD64 -v "$(pwd)":/data -w /data $IMG sh -c $SCRIPT &
+docker run --rm --name "arm32" --platform $PLATFORMARM32 -v "$(pwd)":/data -w /data arm32v7/$IMG sh -c $SCRIPT &
+docker run --rm --name "arm64" --platform $PLATFORMARM64 -v "$(pwd)":/data -w /data arm64v8/$IMG sh -c $SCRIPT &
+docker run --rm --name "amd64" --platform $PLATFORMAMD64 -v "$(pwd)":/data -w /data amd64/$IMG sh -c $SCRIPT &
 wait
 
 sudo chown -R $PUID:$PGID .
 
 # Create package.json
-echo Creating package.json
+echo "Creating package.json"
 git ls-files | xargs -I{} git log -1 --date=format:%Y%m%d%H%M.%S --format='touch -t %ad "{}"' "{}" | $SHELL
 echo -n > packages.json
 for FILE in $(ls packages | sed -e 's/"/\\"/g')
