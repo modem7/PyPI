@@ -1,3 +1,4 @@
+--extra-index-url https://dl.cloudsmith.io/public/modem7/wheels/python/simple/
 --extra-index-url https://modem7.github.io/PyPI/simple
 --extra-index-url https://pypi.org/simple/
 --extra-index-url https://alpine-wheels.github.io/index
