@@ -8,5 +8,5 @@
 
 # Enter packages here
 cffi==1.15.1
-cryptography==39.0.1
+cryptography==39.0.2
 numpy==1.24.2
